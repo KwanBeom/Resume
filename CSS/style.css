@@ -1,0 +1,98 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+html{
+    font-size:10px;
+}
+.about{
+    margin:0 auto;
+    width:60%;
+}
+p{
+    font-size:1.6rem;
+    margin-bottom:1.2rem;
+}
+a{
+    text-decoration: none;
+    color:#000;
+}
+h2{
+    font-size: 4rem;
+    margin: 3rem 0 3rem;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row-left{
+    margin-left:2rem;
+}
+.anchor{
+    display: block;
+    visibility: hidden;
+    height:6rem;
+    margin-top:-6rem;
+}
+
+
+
+
+header{
+    width:100%;
+    position: sticky;
+    padding-top:0;
+    top:0;
+    background:rgba(255,255,255, 0.9);   
+}
+header nav ul{
+    text-align: right;
+}
+header nav ul li{
+    font-size:1.5rem;
+    padding:2rem;
+    display: inline-block;
+}
+header nav ul li a:hover{
+    color:aqua;
+    transition: .2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+div .profile-img{
+    float:right;
+    width:20rem; 
+    height:20rem;
+    border-radius: 50% 0 50% 50%;
+}
+div .name{
+    font-size:4rem;
+    font-weight: 500;
+}
+div .subname{
+    font-size:1.4rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+
+
+
+/* 반응형 */
+@media ( max-width: 968px ) {
+    html {
+      font-size:8px;
+    }
+    /* .row{
+      
+    } */
+@media ( max-width: 768px ){
+    html{
+        font-size: 5px;
+    }
+}
+
+    /* 968px , 768px , 568px*/
