@@ -89,7 +89,7 @@ div .name{
 }
 div .subname{
     font-size:1.4rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem 0 3rem;
 }
 
 div ul li{
