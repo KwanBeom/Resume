@@ -6,7 +6,7 @@ html{
 }
 .about{
     margin:0 auto;
-    width:60%;
+    width:70vw;
 }
 p{
     font-size:1.6rem;
@@ -107,7 +107,7 @@ div ul li{
 /* 반응형 */
 @media ( max-width: 968px ){
     .about{
-        width:60vw;
+        width:80%;
     }
 }
 
